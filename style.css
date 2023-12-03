@@ -1,0 +1,70 @@
+body{
+  background-image: linear-gradient(112.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(157.5deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(135deg, rgb(214, 214, 214) 0%, rgb(214, 214, 214) 10%,rgb(195, 195, 195) 10%, rgb(195, 195, 195) 53%,rgb(176, 176, 176) 53%, rgb(176, 176, 176) 55%,rgb(157, 157, 157) 55%, rgb(157, 157, 157) 60%,rgb(137, 137, 137) 60%, rgb(137, 137, 137) 88%,rgb(118, 118, 118) 88%, rgb(118, 118, 118) 91%,rgb(99, 99, 99) 91%, rgb(99, 99, 99) 100%),linear-gradient(90deg, rgb(195, 195, 195),rgb(228, 228, 228)); background-blend-mode:overlay,overlay,overlay,normal;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#pagination {
+  margin-top: 20px;
+}
+
+.pagination-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 40px auto;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.pagination-button.active {
+  background-color: #dddddd;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size:x-large;
+  color: red;
+}
+
+table{
+  margin: 30px auto;
+ box-sizing: border-box;
+border: 5px solid rgb(9, 245, 60);
+}
+
+th{
+ background-color: rgb(6, 28, 28);
+ border: 3px solid black;
+ font-size: x-large;
+ color: rgb(16, 218, 232);
+}
+
+td{
+  border: 2px solid black;
+font-weight: 500 ;
+font-size: x-large;
+}
+
+button{
+  margin:10px 10px 70px 20px;
+  padding: 10px;
+text-align:center;
+
+}
